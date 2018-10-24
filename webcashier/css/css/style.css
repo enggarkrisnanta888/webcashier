@@ -1,0 +1,310 @@
+.bg-orangetua{
+	background-color:#ba3403;
+	color:white;
+	height:20px ; 
+	font-size:12px !important;
+}
+.aplikasi-ver{
+	margin:auto ;
+	line-height:20px;
+}
+
+nav{
+	box-shadow: 0 1px 3px black;
+	/*padding-top:0!important;
+	padding-bottom:0!important;*/
+}
+
+.navbar-nav-lg-xl{
+	position:absolute;
+	right:0;
+
+}
+
+.navbar-nav h6{
+	margin:0;
+}
+
+
+.bg-orange{
+	/*background-color: #fb642c;*/
+	background-image:linear-gradient(45deg,#fb642c,#ff1e00);
+}
+
+
+.navbar-nav-lg-xl li{
+	border-right:1px solid #ba3403;
+	transition:0.3s;
+
+}
+
+.navbar-nav-lg-xl li:hover .nav-link i{
+	animation:animasinavbar .2s ease 2;
+}
+
+.navbar-nav-lg-xl li i{
+	transition:.3s;
+}
+
+.navbar-nav-lg-xl li:hover {
+	background-color:rgba(0,0,0,.1);
+}
+
+@keyframes animasinavbar{
+	0%{
+		margin:0;
+	}
+	25%{
+		transform:rotate(5deg);
+	}
+	50%{
+		margin:0;
+	}
+	75%{
+		transform:rotate(-5deg);
+	}
+	100%{
+		margin:0;
+	}
+
+}
+
+
+.ukuranlgDanxl .nav-link{
+	width:125px;
+	color: rgba(255,255,255,1) !important;
+	text-align:center;
+	
+}
+
+.nav-link:hover{
+	/*color: rgba(255,255,255,0.9) !important;*/
+	
+}
+
+.nav-link h6{
+	font-size:11px !important;
+}
+
+.ukuranlgDanxl .dropdown-menu a{
+	font-size:12px!important;
+}
+.ukuranlgDanxl .dropdown-menu{
+	border: 1px solid rgba(255, 30, 0, .1) !important;
+	border-radius:0;
+	margin-top:0px !important;
+}
+
+.ukuranlgDanxl .dropdown-item:hover{
+	background-color:#ffe8ca;
+}
+
+
+.footer{
+	background-color:#333;
+	height:50px;
+	width:100%;
+}
+
+
+/*.menu-large {
+  position: static !important;
+}
+
+.megamenu {
+  padding: 20px 20px;
+  width: 100%;
+}
+
+.megamenu > div > li > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.megamenu > div > li > ul > li {
+  list-style: none;
+}
+
+.megamenu .card {
+    outline: none;
+}
+
+.megamenu .card:hover,
+.megamenu .card:focus {
+    outline: 1px solid #000;
+}
+
+.megamenu > div > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: normal;
+}
+
+.megamenu > div > li > ul > li > a:hover,
+.megamenu > div > li > ul > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+
+.megamenu.disabled > a,
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+  color: #999999;
+}
+
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+  cursor: not-allowed;
+}
+
+.megamenu.dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .megamenu {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .megamenu > li {
+    margin-bottom: 30px;
+  }
+  .megamenu > li:last-child {
+    margin-bottom: 0;
+  }
+  .megamenu.dropdown-header {
+    padding: 3px 15px !important;
+  }
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    color: #fff;
+  }
+}*/
+
+
+.navbar-nav-md-sm-xs a{
+	color:white;
+}
+
+
+
+.menu-vertical{
+	height:100%;
+	position:fixed;
+	margin-left:-1500px;
+	transition:.3s;
+	box-shadow: 0 1px 10px rgba(0,0,0,.5);
+	overflow:auto;
+	z-index:9999;
+	
+}
+
+.menu-vertical2{
+	height:100% !important;
+	position:fixed;
+	margin-left:0 ;
+	transition:.3s;
+	
+	box-shadow: 0 1px 10px rgba(0,0,0,.5);
+	overflow:auto;
+	z-index:9999;
+	
+}
+
+li:hover .menu-vertical{
+	margin-left:0;
+	/*margin-bottom:-170%;*/
+	
+}
+
+.menu-vertical a:hover{
+	color: red;
+}
+
+@media (min-width: 576px){
+	.menu-vertical{
+		width:50%;
+	}
+}
+
+@media (min-width: 768px){
+	.menu-vertical{
+		width:100%;
+	}
+}
+
+.menu-vertical a{
+	color:#585858;
+}
+
+.judulmenu {
+	font-size:13px;
+	font-weight:bold;
+}
+
+.linkvertical a{
+	font-size:18px;
+}
+
+.bg-navbar-bottom{
+    background-image:linear-gradient(180deg,#f5f5f5,#e5e5e5);
+}
+
+.bg-navbar-bottom h6{
+	margin-bottom:0 !important;
+	font-size:7px!important;
+}
+
+.bg-navbar-bottom a{
+	color:#989898;
+}
+
+.bg-navbar-bottom a:hover{
+	color:#ff1e00;
+}
+
+.content{
+	padding:0 10px;
+}
+
+@media (min-width:357px) and (max-width:576px){
+	.content{
+		margin-top:50px !important;
+	}
+}
+
+
+@media (min-width:576px) and (max-width:768px){
+	.content{
+		margin-top:400px !important;
+		padding-bottom:40px !important;
+
+	}
+}
+
+@media (min-width:768px) and (max-width:992px){
+	.content{
+		margin-top:369px !important;
+		padding-bottom:40px !important;
+	}
+}
+
+@media (min-width:992px) {
+	.content{
+		margin-top:255px !important;
+	}
+}
+
+
+.paddingl5{
+	padding-left:5px !important;
+}
